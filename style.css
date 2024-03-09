@@ -209,6 +209,10 @@ h3 {
     padding: 16px;
 }
 
+.progress {
+    width: 300px;
+}
+
 .loadpokemon {
     padding: 16px;
     margin-top: 24px;

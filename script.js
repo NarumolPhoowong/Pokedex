@@ -104,7 +104,7 @@ function getPokemonCard() {
          <div>
                  ${stats.map(stat => `<b>${capitalize(stat.stat.name)}</b>
                  <div class="progress">
-                     <div class="progress-bar" role="progressbar" style="width:${stat.base_stat}px; background-color: ${bgColor};" aria-valuenow="${stat.base_stat}" aria-valuemin="0" aria-valuemax="100">${stat.base_stat}</div>
+                     <div class="progress-bar" role="progressbar" style="width:${stat.base_stat}%; background-color: ${bgColor};" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">${stat.base_stat}</div>
                  </div>
              `).join('<br>')}
          </div>
